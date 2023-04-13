@@ -473,10 +473,6 @@ button {
   padding: 48px 0px 60px 35px;
 }
 
-.our-team .container {
-  padding-right: 0;
-}
-
 .our-team-card-wrapper {
   display: flex;
   column-gap: 26px;
@@ -710,10 +706,6 @@ button {
 
   .our-products-wrapper {
     margin-block: 40px;
-  }
-
-  .our-products .container {
-    padding-right: 0;
   }
 
   .our-product-logo img {
