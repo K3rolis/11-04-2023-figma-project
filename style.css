@@ -67,6 +67,7 @@ button {
   color: white;
   letter-spacing: 0.155em;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .primary-button a {
@@ -140,13 +141,14 @@ button {
 }
 
 .background {
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(230, 218, 209, 1) 0%,
     rgba(229, 226, 224, 1) 24%,
     rgba(255, 255, 255, 0.4) 58%,
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 100%
-  );
+  ); */
+  background: linear-gradient(rgba(230, 218, 209, 1) 0%, rgba(229, 226, 224, 1) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 1) 65%);
 }
 
 /* MAIN */
@@ -337,7 +339,7 @@ button {
   width: 100%;
   display: flex;
   column-gap: 17px;
-  overflow-x: visible;
+  overflow: hidden;
   /* overflow: scroll; */
   margin-left: 15px;
 }
@@ -474,7 +476,8 @@ button {
 .our-team-card-wrapper {
   display: flex;
   column-gap: 26px;
-  overflow-x: visible;
+  overflow: hidden;
+  /* overflow-x: visible; */
 }
 
 .our-team-card {
